@@ -32,7 +32,7 @@ job_environments:
   develop_environment: &develop_environment
     OAUTH_GROUP: ops
     CHART_VERSION: 0.8.40-alpha
-    PARENT_VERSION: oauth2-proxy-annotations
+    PARENT_VERSION: 0.8.40-alpha
     APP_HOSTNAME: www-dev.greenpeace.org
     APP_ENVIRONMENT: development
     CLOUDSQL_INSTANCE: p4-develop-k8s
