@@ -30,7 +30,7 @@ job_environments:
     CONTAINER_PREFIX: planet4-ttt
     WP_DB_NAME_PREFIX: planet4-ttt_wordpress
   develop_environment: &develop_environment
-    OAUTH_GROUP: "ops"
+    OAUTH_GROUP: ops
     CHART_VERSION: 0.8.39-alpha
     APP_HOSTNAME: www-dev.greenpeace.org
     APP_ENVIRONMENT: development
