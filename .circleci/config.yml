@@ -30,10 +30,11 @@ job_environments:
     CONTAINER_PREFIX: planet4-ttt
     WP_DB_NAME_PREFIX: planet4-ttt_wordpress
   develop_environment: &develop_environment
-    CHART_VERSION: 0.8.40-alpha
     OAUTH_GROUP: ops
-    APP_ENVIRONMENT: development
+    CHART_VERSION: 0.8.40-alpha
+    PARENT_VERSION: oauth2-proxy-annotations
     APP_HOSTNAME: www-dev.greenpeace.org
+    APP_ENVIRONMENT: development
     CLOUDSQL_INSTANCE: p4-develop-k8s
     GOOGLE_PROJECT_ID: planet-4-151612
     GCLOUD_CLUSTER: p4-development
