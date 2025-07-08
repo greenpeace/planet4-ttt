@@ -16,7 +16,7 @@ docker_auth: &docker_auth
 
 defaults: &defaults
   docker:
-    - image: greenpeaceinternational/p4-builder:build-2224
+    - image: greenpeaceinternational/p4-builder:latest
       auth:
         <<: *docker_auth
 
@@ -30,7 +30,6 @@ job_environments:
     CONTAINER_PREFIX: planet4-ttt
     WP_DB_NAME_PREFIX: planet4-ttt_wordpress
     OAUTH_GROUP: gp
-    CHART_VERSION: 0.8.39-alpha
   develop_environment: &develop_environment
     APP_HOSTNAME: www-dev.greenpeace.org
     APP_ENVIRONMENT: development
