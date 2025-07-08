@@ -29,7 +29,7 @@ job_environments:
     APP_HOSTPATH: ttt
     CONTAINER_PREFIX: planet4-ttt
     WP_DB_NAME_PREFIX: planet4-ttt_wordpress
-    OAUTH_GROUP: gp
+    OAUTH_GROUP: p4
   develop_environment: &develop_environment
     APP_HOSTNAME: www-dev.greenpeace.org
     APP_ENVIRONMENT: development
